@@ -11,6 +11,7 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <style media="screen">
       .vid{
         display: none;
@@ -52,8 +53,8 @@
 
     </style>
   </head>
-  <body style="background-color:#3f4247">
-    <div class="" style="text-align:center">
+  <body style="background-color:#3f4247" ng-app="myApp" ng-controller="customersCtrl">
+    <div class="clearfix" style="text-align:center">
       <div class="bigdiv" style="width:20%;display:inline-block;float:left">
 
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -189,6 +190,34 @@
 
       </div>
     </div>
+    <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog" >
+  <div class="modal-dialog modal-sm" >
+    <div >
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <!-- <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div> -->
+        <div class="modal-body" style="border: 4px solid #16DB93;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <p>There is an update!</p>
+          <p>Check out our songlist!</p>
+          <p>Where you energize your heart :)</p>
+          <a href="./songlist.php" class="btn btn-success">Enter</a>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div> -->
+      </div>
+    </div>
+
+  </div>
+</div>
+   
+
   </body>
 </html>
 <script type="text/javascript">
@@ -204,4 +233,6 @@
     $('div.vid').eq(index-1).addClass('activeVid');
     console.log(index);
   })
+  $("#myModal").modal();
 </script>
+
