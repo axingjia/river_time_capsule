@@ -11,6 +11,6 @@
 	<br>
 	<a  href="./songlist2.php" class="songtitle2">2.Reckless Love</a>
 	<br>
-	<a  href="./songlist3.php" class="songtitle2">3. Great Are You Lord</a>
+	<a  href="./songlist3.php" class="songtitle3">3. Great Are You Lord</a>
 
 </div>
