@@ -77,7 +77,7 @@ Great Are You Lord lyrics © Sony/ATV Music Publishing LLC, Capitol Christian Mu
 		</div>
 		<script>
 			$(document).ready(function(){
-				$('.songtitle2').css('color',"#E7A977");
+				$('.songtitle3').css('color',"#E7A977");
 			})
 		</script>
 		
