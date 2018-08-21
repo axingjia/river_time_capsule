@@ -10,4 +10,7 @@
 	<a  href="./songlist.php" class='songtitle1'>1.This is Amazing Grace</a>
 	<br>
 	<a  href="./songlist2.php" class="songtitle2">2.Reckless Love</a>
+	<br>
+	<a  href="./songlist3.php" class="songtitle2">3. Great Are You Lord</a>
+
 </div>
