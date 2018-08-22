@@ -13,6 +13,6 @@
 	<br>
 	<a  href="./songlist3.php" class="songtitle3">3. Great Are You Lord</a>
 	<br>
-	<a  href="./songlist4.php" class="songtitle4">4. I believe</a>
+	<a  href="./songlist4.php" class="songtitle4">4. This I believe</a>
 
 </div>
