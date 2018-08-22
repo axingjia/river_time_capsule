@@ -1,5 +1,5 @@
 <style>
-	.songtitle1,.songtitle2{
+	.songtitle1,.songtitle2,.songtitle3,.songtitle4{
 		color: white;
 		font-size: 12px;
 	}
@@ -12,5 +12,7 @@
 	<a  href="./songlist2.php" class="songtitle2">2.Reckless Love</a>
 	<br>
 	<a  href="./songlist3.php" class="songtitle3">3. Great Are You Lord</a>
+	<br>
+	<a  href="./songlist4.php" class="songtitle4">4. I believe</a>
 
 </div>
