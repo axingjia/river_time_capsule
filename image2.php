@@ -113,7 +113,7 @@
 
         </div>
         <div class="">
-          <div class="vid activeVid">
+          <!-- <div class="vid activeVid">
             <video autoplay controls muted loop>
               <source src="image2/1eYgfLO.mp4" type="video/mp4">
 
@@ -176,6 +176,154 @@
             </video>
 
           </div>
+          <div class="vid">
+            <video autoplay controls muted loop>
+              <source src="image2/CFk915N.mp4" type="video/mp4">
+
+            </video>
+
+          </div>
+          <div class="vid">
+            <video autoplay controls muted loop>
+              <source src="image2/CoIV6Mq.mp4" type="video/mp4">
+
+            </video>
+
+          </div>
+          <div class="vid">
+            
+              <img src="image2/Cwo7o9C.jpg" >
+
+            
+
+          </div>
+          <div class="vid">
+            <video autoplay controls muted loop>
+              <source src="image2/dIjfN63.mp4" type="video/mp4">
+
+            </video>
+
+          </div>
+          <div class="vid">
+            <video autoplay controls muted loop>
+              <source src="image2/E8gfNu0.mp4" type="video/mp4">
+
+            </video>
+
+          </div>
+          <div class="vid">
+            <video autoplay controls muted loop>
+              <source src="image2/erq6bIH.mp4" type="video/mp4">
+
+            </video>
+
+          </div>
+          <div class="vid">
+            <video autoplay controls muted loop>
+              <source src="image2/fEvQL1k.mp4" type="video/mp4">
+
+            </video>
+
+          </div>
+          <div class="vid">
+            <video autoplay controls muted loop>
+              <source src="image2/GhSClid.mp4" type="video/mp4">
+
+            </video>
+
+          </div>
+          <div class="vid">
+            <video autoplay controls muted loop>
+              <source src="image2/grk74bk.mp4" type="video/mp4">
+
+            </video>
+
+          </div>
+          <div class="vid">
+            <video autoplay controls muted loop>
+              <source src="image2/hEiNNZl.mp4" type="video/mp4">
+
+            </video>
+
+          </div>
+          <div class="vid">
+            <video autoplay controls muted loop>
+              <source src="image2/iSxAr7K.mp4" type="video/mp4">
+
+            </video>
+
+          </div>
+          <div class="vid">
+            <video autoplay controls muted loop>
+              <source src="image2/KDIOyWw.mp4" type="video/mp4">
+
+            </video>
+
+          </div>
+          <div class="vid">
+            
+              <img src="image2/KOqIZqM.png" >
+
+            
+
+          </div>
+          <div class="vid">
+            <video autoplay controls muted loop>
+              <source src="image2/kWJ1wK1.mp4" type="video/mp4">
+
+            </video>
+
+          </div>
+          <div class="vid">
+            <video autoplay controls muted loop>
+              <source src="image2/laLjzmJ.mp4" type="video/mp4">
+
+            </video>
+
+          </div>
+          <div class="vid">
+            <video autoplay controls muted loop>
+              <source src="image2/lHYPRzj.mp4" type="video/mp4">
+
+            </video>
+
+          </div>
+          <div class="vid">
+            <video autoplay controls muted loop>
+              <source src="image2/lTx4PfP.mp4" type="video/mp4">
+
+            </video>
+
+          </div> -->
+          <?
+            foreach(glob('image2'.'/*.*') as $file) {
+                $file_parts=pathinfo($file);
+                if($file_parts['extension']!='mp4'){
+                  ?>
+                    <div class="vid">
+            
+                      <img src="image2/<? echo $file;?>" >
+
+                    
+
+                  </div>
+
+                  <?
+                }else{ ?>
+                  <div class="vid">
+                    <video autoplay controls muted loop>
+                      <source src="image2/<? echo $file;?>" type="video/mp4">
+
+                    </video>
+
+                  </div>
+                  <?
+                }
+            }
+
+
+          ?>
+
           <div class="vid ending" style="">
             That's all. Come next time for more img :)
 
