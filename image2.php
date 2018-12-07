@@ -312,7 +312,7 @@
                   <?
                   $i++;
                 }else{ ?>
-                  <div class="vid">
+                  <div class="vid <? if($i==0) echo 'activeVid'?>">
                     <video autoplay controls muted loop>
                       <source src="<? echo $file;?>" type="video/mp4">
 
