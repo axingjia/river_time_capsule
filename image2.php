@@ -296,11 +296,12 @@
 
           </div> -->
           <?
+            $i=0;
             foreach(glob('image2'.'/*.*') as $file) {
                 $file_parts=pathinfo($file);
                 if($file_parts['extension']!='mp4'){
                   ?>
-                    <div class="vid">
+                    <div class="vid <? if($i==0) echo 'activeVid'?>">
             
                       <img src="<? echo $file;?>" >
 
@@ -309,6 +310,7 @@
                   </div>
 
                   <?
+                  $i++;
                 }else{ ?>
                   <div class="vid">
                     <video autoplay controls muted loop>
@@ -318,6 +320,7 @@
 
                   </div>
                   <?
+                  $i++;
                 }
             }
 
