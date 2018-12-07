@@ -302,7 +302,7 @@
                   ?>
                     <div class="vid">
             
-                      <img src="image2/<? echo $file;?>" >
+                      <img src="<? echo $file;?>" >
 
                     
 
@@ -312,7 +312,7 @@
                 }else{ ?>
                   <div class="vid">
                     <video autoplay controls muted loop>
-                      <source src="image2/<? echo $file;?>" type="video/mp4">
+                      <source src="<? echo $file;?>" type="video/mp4">
 
                     </video>
 
