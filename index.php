@@ -203,7 +203,7 @@
           <h4 class="modal-title">Modal Header</h4>
         </div> -->
         <div class="modal-body" style="border: 4px solid #16DB93;">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <button type="button" class="close1" data-dismiss="modal">&times;</button>
           <p>There is an update!</p>
           <p>Check out our new array of funny image!</p>
           <p>Where you energize your heart :)</p>
@@ -218,7 +218,7 @@
   </div>
 </div>
     <!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog" >
+<div id="myModal2" class="modal fade" role="dialog" >
   <div class="modal-dialog modal-sm" >
     <div >
 
@@ -261,5 +261,9 @@
     console.log(index);
   })
   $("#myModal").modal();
+
+  $('.close1').click(function(){
+    $("#myModal2").modal();
+  });
 </script>
 
