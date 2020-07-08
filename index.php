@@ -51,6 +51,10 @@
         font-size: 19px;
       }
 
+      .vid .video{
+          width:100%;
+      }
+
     </style>
   </head>
   <body style="background-color:#3f4247" ng-app="myApp" ng-controller="customersCtrl">
@@ -243,7 +247,7 @@
 
   </div>
 </div>
-   
+
 
   </body>
 </html>
@@ -266,4 +270,3 @@
     $("#myModal2").modal();
   });
 </script>
-
