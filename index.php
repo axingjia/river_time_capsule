@@ -51,7 +51,7 @@
         font-size: 19px;
       }
 
-      .vid .video{
+      .vid video{
           width:100%;
       }
 
