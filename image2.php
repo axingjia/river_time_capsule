@@ -20,6 +20,9 @@
 
         display: block !important;
       }
+      .vid video{
+          width:100%;
+      }
 
 
       .ads{
@@ -113,7 +116,7 @@
 
         </div>
         <div class="">
-          
+
           <?
             $i=0;
             foreach(glob('image2'.'/*.*') as $file) {
@@ -121,10 +124,10 @@
                 if($file_parts['extension']!='mp4'){
                   ?>
                     <div class="vid <? if($i==0) echo 'activeVid'?>">
-            
+
                       <img src="<? echo $file;?>" >
 
-                    
+
 
                   </div>
 
@@ -162,7 +165,7 @@
     </div>
 
 
-   
+
 
   </body>
 </html>
@@ -181,4 +184,3 @@
   })
   $("#myModal").modal();
 </script>
-
